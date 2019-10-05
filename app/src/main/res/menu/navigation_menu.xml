@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_search_beer"
+        android:title="@string/menu_item_title_search_beer"
+        android:icon="@drawable/ic_search"/>
+    <item
+        android:id="@+id/navigation_favourite_beer"
+        android:title="@string/menu_item_title_favourite_beer"
+        android:icon="@drawable/ic_favorite"/>
+    <item
+        android:id="@+id/navigation_search_breweries"
+        android:title="@string/menu_item_title_search_breweries"
+        android:icon="@drawable/ic_near_me"/>
+</menu>

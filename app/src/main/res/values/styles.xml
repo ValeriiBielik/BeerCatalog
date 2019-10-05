@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Theme.BeerCatalog" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#FFCF44</item>
+        <item name="colorPrimaryDark">#FD9725</item>
+        <item name="colorAccent">#FD9725</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="Widget.BeerCatalog.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/Theme.BeerCatalog</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/TextAppearance.BeerCatalog.Toolbar</item>
+    </style>
+
+    <style name="TextAppearance.BeerCatalog.Toolbar" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

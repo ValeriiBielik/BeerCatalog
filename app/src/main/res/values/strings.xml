@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Beer Catalog</string>
+    <!--action_menu-->
+    <string name="menu_item_title_search">Search</string>
+    <string name="menu_item_title_favourite_beer">Favourite beer</string>
+    <!--navigation_menu-->
+    <string name="menu_item_title_search_beer">Search beer</string>
+    <string name="menu_item_title_search_breweries">Breweries near</string>
+    <string name="menu_item_title_add_to_favourites">Add to favourites</string>
+    <!--not found messages-->
+    <string name="glass_info_not_found">Glass info not found</string>
+    <string name="info_not_found">Information not found</string>
+    <!--Toast-->
+    <string name="toast_no_breweries_near">No breweries near</string>
+</resources>
